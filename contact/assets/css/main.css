@@ -1086,7 +1086,6 @@ input, select, textarea {
 			margin: 0 auto;
 			max-width: 100%;
 			width: 75em;
-			font-size: 1.2em;
 		}
 
 			.panel > .inner.split {
@@ -1492,7 +1491,7 @@ input, select, textarea {
 		#header h1 {
 			color: #a0a0a1;
 			display: inline-block;
-			font-size: 2em;
+			font-size: 1.5em;
 			line-height: 1;
 			margin: 0;
 			vertical-align: middle;
@@ -1511,6 +1510,8 @@ input, select, textarea {
 			position: absolute;
 			right: 0;
 			top: 0;
+			font-size: 1.5em;
+
 		}
 
 			#header nav > ul {
@@ -1535,8 +1536,6 @@ input, select, textarea {
 						letter-spacing: 0.1em;
 						padding: 0 1.65em;
 						text-transform: uppercase;
-						font-size: 2em;
-
 					}
 
 						#header nav > ul > li a.icon:before {
@@ -1568,6 +1567,8 @@ input, select, textarea {
 			height: 4em;
 			padding: 0 1em;
 			top: 0;
+			
+			
 		}
 
 			body.is-preload #header {
@@ -1578,12 +1579,13 @@ input, select, textarea {
 			}
 
 			#header h1 {
+				font-size: 0.9em;
 				font-size: 1.5em;
-				
+
 			}
 
 			#header nav > ul > li a {
-				font-size: 1.5em;
+				font-size: 0.9em;
 				padding: 0 1.15em;
 			}
 
